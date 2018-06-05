@@ -1,16 +1,11 @@
-<% recipes = [
-{ name: "FORTNITE",
-content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quas ab!" },
-{ name: "FARCRY 5",
-content: "Lorem ipsum dolor sit amet, consectetur elit. Incidunt vitae voluptates." },
-] %>
+<h1>Les derniers ajouts</h1>
 
-<h1>Les derniers ajouts</h2>
-<ul>
-<% recipes.each do |recipe| %>
-<li>
-<h3><%= recipe[:name] %></h3>
-<p><%= recipe[:content] %></p>
-</li>
-<% end %>
-</ul>
+<div class="list-group">
+  <a href="http://jeuxdumoment.herokuapp.com/pages/blog" class="list-group-item list-group-item-action active">
+    FORTNITE
+  </a>
+  <a href="http://jeuxdumoment.herokuapp.com/pages/blog2" class="list-group-item list-group-item-action">FARCRY 5</a>
+  <a href="#" class="list-group-item list-group-item-action">GOD OF WAR</a>
+  <a href="#" class="list-group-item list-group-item-action">SUPER MARIO ODYSSEY</a>
+  <a href="#" class="list-group-item list-group-item-action disabled">NIER : AUTOMATA</a>
+</div>
