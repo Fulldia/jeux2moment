@@ -5,4 +5,8 @@ class PagesController < ApplicationController
   end
   def blog
   end
+  def blog2
+  end
+  def list
+  end
 end
