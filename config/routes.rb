@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'subscribers/index'
+
   devise_for :users
   root to: 'pages#home'
   get 'pages/blog'
@@ -7,5 +9,6 @@ Rails.application.routes.draw do
   get 'pages/blog3'
   get 'pages/blog4'
   get 'pages/blog5'
+  get 'pages/blog6'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

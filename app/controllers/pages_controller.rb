@@ -15,4 +15,6 @@ class PagesController < ApplicationController
   end
   def blog5
   end
+  def blog6
+  end
 end
