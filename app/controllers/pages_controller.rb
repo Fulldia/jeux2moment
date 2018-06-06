@@ -9,4 +9,10 @@ class PagesController < ApplicationController
   end
   def list
   end
+  def blog3
+  end
+  def blog4
+  end
+  def blog5
+  end
 end
