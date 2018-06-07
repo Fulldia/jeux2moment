@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'pages/blog4'
   get 'pages/blog5'
   get 'pages/blog6'
-  get 'comment'
+
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
